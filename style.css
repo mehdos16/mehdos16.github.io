@@ -1,0 +1,61 @@
+/* Début du site ---*/
+
+body {
+  background-color: floralwhite;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+/* Flexboxs ---*/
+
+.block{
+display : flex;
+justify-content: space-around;
+}
+
+
+.ok{
+display : flex;
+justify-content: space-around;
+}
+
+.Titre{
+display : flex;
+justify-content: space-around;
+}
+
+  .paragraphe{
+display : flex;
+justify-content: space-around;
+}
+
+.pond {
+  display: flex;
+  justify-content: center;
+stretch
+}
+
+.insta {
+  display: flex;
+  justify-content: space-around;
+stretch
+}
+
+
+
+/* Responsive ---*/
+
+/* On screens that are 600px or less, set the background color to tan */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: tan;
+  }}
